@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <listeners>
+        <listener class-name="Reports.AllureReporting"/>
+    </listeners>
+    <test name="RegressionTests">
+        <classes>
+            <class name="TestsPackage.LoginTests"/>
+        </classes>
+    </test>
+</suite>

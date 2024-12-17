@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-16T01:03:03 PKT" name="MyTestSuite" finished-at="2024-12-16T01:03:16 PKT" duration-ms="13450">
+    <groups>
+    </groups>
+    <test started-at="2024-12-16T01:03:03 PKT" name="RegressionTests" finished-at="2024-12-16T01:03:16 PKT" duration-ms="13450">
+      <class name="TestsPackage.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestsPackage.LoginTests@7942a854]" started-at="2024-12-16T01:03:02 PKT" name="setup" finished-at="2024-12-16T01:03:03 PKT" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:TestsPackage.LoginTests@7942a854]" started-at="2024-12-16T01:03:03 PKT" name="setUpMethod" finished-at="2024-12-16T01:03:09 PKT" duration-ms="6849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="invalidLoginTest()[pri:0, instance:TestsPackage.LoginTests@7942a854]" started-at="2024-12-16T01:03:10 PKT" name="invalidLoginTest" finished-at="2024-12-16T01:03:11 PKT" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:TestsPackage.LoginTests@7942a854]" started-at="2024-12-16T01:03:11 PKT" name="tearDownMethod" finished-at="2024-12-16T01:03:11 PKT" duration-ms="408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLoginTest status=SUCCESS method=LoginTests.invalidLoginTest()[pri:0, instance:TestsPackage.LoginTests@7942a854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="setUpMethod()[pri:0, instance:TestsPackage.LoginTests@7942a854]" started-at="2024-12-16T01:03:11 PKT" name="setUpMethod" finished-at="2024-12-16T01:03:14 PKT" duration-ms="3016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpMethod -->
+        <test-method signature="validLoginTest()[pri:0, instance:TestsPackage.LoginTests@7942a854]" started-at="2024-12-16T01:03:14 PKT" name="validLoginTest" finished-at="2024-12-16T01:03:16 PKT" duration-ms="1688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:TestsPackage.LoginTests@7942a854]" started-at="2024-12-16T01:03:16 PKT" name="tearDownMethod" finished-at="2024-12-16T01:03:16 PKT" duration-ms="300" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLoginTest status=SUCCESS method=LoginTests.validLoginTest()[pri:0, instance:TestsPackage.LoginTests@7942a854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method is-config="true" signature="tearDownSuite()[pri:0, instance:TestsPackage.LoginTests@7942a854]" started-at="2024-12-16T01:03:16 PKT" name="tearDownSuite" finished-at="2024-12-16T01:03:17 PKT" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- TestsPackage.LoginTests -->
+    </test> <!-- RegressionTests -->
+  </suite> <!-- MyTestSuite -->
+</testng-results>

@@ -1,0 +1,14 @@
+Utilities\TestListener.class
+BasePackage\baseTest.class
+Utilities\BrowserManager.class
+PageObjectsPackage\HomePage.class
+PageObjectsPackage\Elements.class
+Utilities\GenericFunctions.class
+Reports\AllureReporting.class
+TestsPackage\LoginTests.class
+Database\DatabaseSeleniumTest.class
+Reports\ReportManager.class
+Database\DatabaseHelper.class
+Utilities\ConfigReader.class
+Database\DatabaseConnection.class
+PageObjectsPackage\LoginPage.class
